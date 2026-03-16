@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando hover</title>
+</head>
+<body>
+    <h1>Exemplo de Hover em CSS</h1>
+    <p>Este é um exemplo simples de como usar a pseudo-classe <code>:hover</code> em CSS para estilizar elementos HTML quando o cursor do mouse passa sobre eles.</p>
+
+    <button class="hover-button">
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </button>
+
+    <style>
+        .hover-button {
+            background-color: rgb(5, 184, 243);
+            border: none;
+            border-radius: 5px;
+            padding: 10px 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .hover-button:hover {
+            background-color: darkblue;
+            color: white;
+        }
+        .hover-button p {
+            display: none;
+            margin: 5px;
+            padding: 5px;
+        }
+        .hover-button:hover p {
+            display: block;
+        }
+    </style>
+</body>
+</html>

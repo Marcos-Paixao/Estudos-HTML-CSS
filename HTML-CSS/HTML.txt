@@ -1,0 +1,88 @@
+<code> Escrever codigos-fonte
+<pre> Identar código-fontes
+<q> Citações simples
+<blockquote> usadas para citações
+<abbr> colocar significados de abreviações
+<ol> lista ordenadas
+<li> itens das listas
+<ul> listas não ordenadas
+target="_blank" = vai abrir o link em outra aba
+
+cores primarias
+amarelo - vermelha - azul
+
+cores secundarias
+laranja - violeta - verde
+
+cores terciarias
+amarelo-alaranjado
+vermelho-alaranjado
+vermelho-arroxeado
+azul-arroxeado
+azul-esverdeado
+amarelo-esverdeado
+
+média de paleta para site
+no máximo 5, ideal 4, não muito comum mais usual 3
+
+sites para paletas de cores para sites
+* Paletton
+* Adobe colors
+* coolors  skillshare
+
+Medidas de Fontes
+*Absolutas
+	cm, mm, in, px, pt, pc
+*Relativas
+	em, ex, rem, vw, vh, %	
+
+font-size: em ou px ( "em" tamanho da fonte em relção ao "M" normal da fonte)
+font-weight: peso da fonte (normal, lighter, bold ou bolder)
+font-style: (normal, italic ou bold)
+text-decoratrion: (underline
+
+*ShortHand Font
+font-style -> font-weight -> font-size -> font-family
+exemplo: font: italic bolder 3em 'Work Sans';
+
+Tipos de format()
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+
+*Seletores
+"#"  id (identificação)
+"."  class ( classe)
+":"  pseudo-classe
+"::" pseudo-element
+">"  children
+
+*Tipos de caixas
+Block-level -> uma caixa como quebra de linha
+exemplo mais usado <div></div>
+outros ex: h1, p, header, nav, article, aside, footer, form, video
+
+inline-level -> uma caixa na mesma linha
+exemplo mais usado <span></span>
+outros ex: a, code, small, strong, em sub, sup, label, botton, input, select
+
+OBS: margin: auto; para centralizar
+
+site passo a passo
+1º links no doc html (icon, css, etc.)
+2º organizar o texto dentro das tags
+body
+header
+main
+section
+article
+footer
+3º cores e fontes: criar variaveis no css para cores e fontes
+4º padding, margin, width,  borda
+obs: responsividade está diretamente ligada a "min-width e max-width".
+min-width ideal é de 320px, isso correspnde a telas de smartphones mais
+antigos.
+
+

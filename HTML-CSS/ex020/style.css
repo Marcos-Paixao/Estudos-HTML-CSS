@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: #E629A0;
+}
+
+/* 1. O contêiner de fundo (necessário para que o desfoque tenha algo para desfocar) */
+.background-container {
+    background: linear-gradient(135deg, #c45b23, #E68B29, #f18c39, #ebdfd5d0); /* Um fundo colorido e vibrante */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2. O elemento MAIN com o efeito de vidro */
+.glass-main {
+    background-color: rgba(255, 255, 255, 0.15); /* Cor de fundo semi-transparente (branco com 15% de opacidade) */
+    backdrop-filter: blur(10px); /* O TRUQUE: aplica o desfoque no que está POR TRÁS do elemento */
+    border-radius: 15px; /* Bordas arredondadas para melhor estética */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda sutil de "vidro" */
+    text-align: center;
+    max-width: 400px;
+}

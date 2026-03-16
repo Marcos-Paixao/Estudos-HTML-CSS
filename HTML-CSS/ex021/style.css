@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body {
+    background: url("3d.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgb(17, 37, 0);
+    text-align: center;
+    margin: 50px auto 10px;
+    padding: 5px 0;
+}
+nav {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px 0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px 30px;
+    max-width: auto;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #050505;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    position: justify;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    margin: 2px;
+}
+h1, h2 {
+    margin: 0;
+    text-shadow: 1px 1px 5px rgba(255, 254, 254, 0.479);
+}
+p {
+    line-height: 1.5;
+}
+main {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    border-radius: 10px 0;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    max-width: auto;
+    margin: 5px 30px; /* Centraliza o main horizontalmente */
+}

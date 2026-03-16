@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmimica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes <br>
+    ou simplismente aumente e diminua tamanho da janela do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 768px)" srcset="imagem/imagem-p.png" type="image/png">
+        <source media="(max-width: 1024px)" srcset="imagem/imagem-m.png" type="image/png">
+        <img src="imagem/imagem-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <h2>Vamos aprender a reproduzir audio em HTML5</h2>
+    <audio src="midia/Repeat - Mark Karan, Scott Guberman, Angeline Saris, Jeremy Hoenig.mp3" controls></audio>
+</body>
+</html>
